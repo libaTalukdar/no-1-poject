@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my ecommerce website</title>
+    <!-- box icon==== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- swiper js -->
+    
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-t-shirt'></i>T-shirt</a>
+        <ul class="navbar">
+            <li ><a href="#home">Home</a></li>
+            <li ><a href="#new">New</a></li>
+            <li ><a href="#product">Product</a></li>
+            <li ><a href="#reviews">Reviews</a></li>
+            
+        </ul>
+        <div class="header-icon">
+            <i class='bx bx-menu'id="menu-icon" ></i>
+            <i class='bx bx-search-alt-2' id="search-icon" ></i>
+            <i class='bx bx-cart-alt'id="cart-icon"></i>
+            <i class='bx bx-user'id="user-icon" ></i>
+        </div>
+        <div class="search-box">
+            <input type="search"placeholder="search here....">
+        </div>
+        <!-- ==========cart -box -->
+        <div class="cart">
+            <!-- box-1 -->
+            <div class="box">
+                <img src="img/new1.png" alt="">
+                <div class="text">
+                    <h3>T-shirt</h3>
+                    <span>$50.00</span>
+                    <span>X1</span>
+                </div>
+                <i class='bx bxs-trash' ></i>
+            </div>
+            <!-- box-2 -->
+            <div class="box">
+                <img src="img/new1.png" alt="">
+                <div class="text">
+                    <h3>T-shirt</h3>
+                    <span>$50.00</span>
+                    <span>X1</span>
+                </div>
+                <i class='bx bxs-trash' ></i>
+            </div>
+            <h2>Total:$100.00</h2>
+            <a href="#" class="btn">#Checkout</a>
+        </div>
+        <!-- user============= -->
+        <div class="user">
+            <h2>Login now</h2>
+            <input type="email" placeholder="your email">
+            <input type="password" placeholder="password">
+            <input type="submit" value="login" class="login-btn">
+            <p>Forget password <a href="#">Reset now</a></p>
+            <p>Don't have account <a href="#">create now</a></p>
+        </div>
+    </header>
+    <!-- =============home================== -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Shopping Now</span>
+            <h1>New Arrival Of Gorgious Products</h1>
+            <a href="#" class="btn">Buy now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/home1.png" alt="">
+        </div>
+    </section>
+
+    <!-- new arrival section=========== -->
+    <section class="new" id="new">
+        <div class="heading">
+            <h1>New <span>Arrival</span></h1>
+        </div>
+        <div class="swiper new-arrival">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/two.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/two.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/four.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/three.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/three.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/three.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy now</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            
+        </div>
+    </section>
+
+
+    <!-- =========product section==== -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h1>Choice<span> Product </span></h1>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <img src="img/s1.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="box">
+                <img src="img/s2.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="box">
+                <img src="img/s3.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="box">
+                <img src="img/s4.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="box">
+                <img src="img/s5.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="box">
+                <img src="img/s6.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="box">
+                <img src="img/s1.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            
+            <div class="box">
+                <img src="img/s2.jpg" alt="">
+                <h2>Shirts</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <span>$80.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+    </section>
+    <!-- =========review section========= -->
+   <section class="reviews" id="reviews">
+    <div class="heading">
+        <h1>Regular<span> Customers</span></h1>
+    </div>
+    <div class="reviews-container">
+        
+        <div class="box">
+            <img src="img/m2.jpg" alt="">
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.animi explicabo nulla tenetur expedita </p>
+            <h2>Rahim</h2>
+        </div>
+        <div class="box">
+            <img src="img/m3.jpg" alt="">
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.animi explicabo nulla tenetur expedita </p>
+            <h2>lahim</h2>
+        </div>
+        <div class="box">
+            <img src="img/m4.jpg" alt="">
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.animi explicabo nulla tenetur expedita </p>
+            <h2>kahim</h2>
+        </div>
+        <div class="box">
+            <img src="img/m5.jpg" alt="">
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.animi explicabo nulla tenetur expedita </p>
+            <h2>salma</h2>
+        </div>
+    </div>
+
+   </section>
+   <section class="footer">
+    <div class="footer-box">
+        <h2>T-Shirt</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing ihil porro incidunt maxime voluptas, reiciendis </p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-pinterest' ></i></a>
+        </div>
+    </div>
+    
+    
+       <div class="footer-box">
+        <h3>support</h3>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Help and support</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">FAQ</a></li>
+    </div>
+    <div class="footer-box">
+        <h3>our branches</h3>
+        <li><a href="#">sylhet</a></li>
+        <li><a href="#">Dhaka</a></li>
+        <li><a href="#">Comilla</a></li>
+        <li><a href="#">Khulna</a></li>
+    </div> <div class="footer-box">
+        <h3>Payment</h3>
+        <div class="payment">
+            <img src="img/p1.jpg" alt="">
+        <img src="img/p2.jpg" alt="">
+        <img src="img/p3.jpg" alt="">
+        </div>
+        
+    </div>
+
+   </section>
+   <div class="copyright">
+    <p>&copy All right reserved by fahim</p>
+   </div>
+    <!-- swiper js -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
+    <script src="index.js"></script>
+</body>
+</html>
